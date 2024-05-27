@@ -96,7 +96,7 @@ export function Proyectos() {
   }
 
   return (
-    <div id="proyectos" className="bg-gray-600 text-white relative mx-auto px-4 md:px-12 xl:px-20 pb-5">
+    <div id="proyectos" className="bg-gray-600 text-white relative mx-auto  md:px-12 xl:px-20 pt-7 pb-5">
       <h1 className="text-4xl lg:text-3xl xl:text-4xl text-center font-bold pt-10 mb-8"> PROYECTOS </h1>
       <div className="max-w-[400px] mx-auto">
         <Slider {...settings}>

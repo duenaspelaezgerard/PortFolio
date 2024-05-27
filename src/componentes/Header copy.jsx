@@ -30,15 +30,12 @@ export function Header() {
     };
 
     const handleScrollSpy = () => {
-      const sections = ['home', 'sobremi', 'habilidades', 'trayectoria', 'proyectos', 'contacto'];
+      const sections = document.querySelectorAll('section');
       let currentSection = '';
-      sections.forEach(id => {
-        const section = document.getElementById(id);
-        if (section) {
-          const sectionTop = section.offsetTop;
-          if (window.scrollY >= sectionTop - 10) {
-            currentSection = id;
-          }
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        if (window.scrollY >= sectionTop - 60) {
+          currentSection = section.getAttribute('id');
         }
       });
       setActiveSection(currentSection);
@@ -74,8 +71,8 @@ export function Header() {
           <div className={`flex-col md:flex-row md:flex ${isOpen ? 'flex' : 'hidden'}`}>
             <a href="#home" className={`text-gray-300 text-sm font-bold px-2 py-1 transition duration-500 ${activeSection === 'home' ? 'bg-gray-600' : 'hover:bg-gray-600'}`}>HOME</a>
             <a href="#sobremi" className={`text-gray-300 text-sm font-bold px-2 py-1 transition duration-500 ${activeSection === 'sobremi' ? 'bg-gray-600' : 'hover:bg-gray-600'}`}>SOBRE MÍ</a>
-            <a href="#habilidades" className={`text-gray-300 text-sm font-bold px-2 py-1 transition duration-500 ${activeSection === 'habilidades' ? 'bg-gray-600' : 'hover:bg-gray-600'}`}>HABILIDADES</a>
-            <a href="#trayectoria" className={`text-gray-300 text-sm font-bold px-2 py-1 transition duration-500 ${activeSection === 'trayectoria' ? 'bg-gray-600' : 'hover:bg-gray-600'}`}>TRAYECTORIA</a>
+            <a href="#habilidades" className={`text-gray-300 text-sm font-bold px-2 py-1 transition duration-500 ${activeSection === 'proyectos' ? 'bg-gray-600' : 'hover:bg-gray-600'}`}>HABILIDADES</a>
+            <a href="#trayectoria" className={`text-gray-300 text-sm font-bold px-2 py-1 transition duration-500 ${activeSection === 'proyectos' ? 'bg-gray-600' : 'hover:bg-gray-600'}`}>TRAYECTORIA</a>
             <a href="#proyectos" className={`text-gray-300 text-sm font-bold px-2 py-1 transition duration-500 ${activeSection === 'proyectos' ? 'bg-gray-600' : 'hover:bg-gray-600'}`}>PROYECTOS</a>
             <a href="#contacto" className={`text-gray-300 text-sm font-bold px-2 py-1 transition duration-500 ${activeSection === 'contacto' ? 'bg-gray-600' : 'hover:bg-gray-600'}`}>CONTACTO</a>
           </div>

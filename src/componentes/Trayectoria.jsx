@@ -1,8 +1,8 @@
 export function Trayectoria() {
     return (
-        <div id="trayectoria" className="relative w-full bg-gray-700 text-white text-white flex items-center justify-center bg-black mt-10 mb-20">
+        <div id="trayectoria" className="relative w-full bg-gray-700 text-white text-white flex items-center justify-center bg-black pt-10 mb-20">
             <div className="relative container mx-auto px-4 md:px-12 xl:px-20 max-w-7xl">
-            <h1 className="text-4xl lg:text-3xl xl:text-4xl text-center font-bold mb-10">TRAYECTORIA</h1>
+            <h1 className="text-4xl lg:text-3xl xl:text-4xl text-center font-bold mb-10 pt-10">TRAYECTORIA</h1>
                 <div className="grid grid-cols-1 gap-8">
                     <div className="bg-gray-800 bg-opacity-70 p-6 rounded-lg shadow-md">
                         <h3 className="text-2xl font-bold mb-4"><i class="fa-solid fa-code"></i> Programador Full-Stack en Menarini Diagnostics</h3>

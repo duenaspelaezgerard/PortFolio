@@ -18,18 +18,21 @@ export function Habilidades() {
         breakpoint: 1024,
         settings: {
           slidesToShow: 3,
+          slidesToScroll: 3,
         }
       },
       {
         breakpoint: 768,
         settings: {
           slidesToShow: 2,
+          slidesToScroll: 2,
         }
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
+          slidesToScroll: 1,
         }
       }
     ]
@@ -37,25 +40,25 @@ export function Habilidades() {
 
   return (
     <div id="habilidades" className="flex flex-col items-center justify-center bg-gray-600">
-        <div className="container mx-auto p-8">
+        <div className="container mx-auto p-8 mt-10">
             <h2 className="text-4xl lg:text-3xl xl:text-4xl text-white text-center font-bold">MIS HABILIDADES</h2>
             <div className="mt-12">
                 <Slider {...settings} className="mx-auto max-w-screen-xl">
-                    <SkillCard image={"/HTML5.png"} title="HTML" />
-                    <SkillCard image={"/CSS3.png"} title="CSS" />
-                    <SkillCard image={"/JavaScript.png"} title="JavaScript" />
-                    <SkillCard image={"/C++.png"} title="C++" />
-                    <SkillCard image={"/PHP.png"} title="PHP" />
-                    <SkillCard image={"/Java.png"} title="Java" />
-                    <SkillCard image={"/Bootstrap.png"} title="Bootstrap" />
-                    <SkillCard image={"/Tailwind.png"} title="Tailwind" />
-                    <SkillCard image={"/Wordpress.png"} title="Wordpress" />
-                    <SkillCard image={"/mysql.png"} title="MYSQL" />
-                    <SkillCard image={"/postgresql.png"} title="PostgreSQL" />
-                    <SkillCard image={"/supabase.png"} title="Supabase" />
-                    <SkillCard image={"/React.webp"} title="React" />
-                    <SkillCard image={"/Node.png"} title="NodeJS" />
-                    <SkillCard image={"/api.png"} title="API Rest" />
+                    <Habilidad image={"/HTML5.png"} title="HTML" />
+                    <Habilidad image={"/CSS3.png"} title="CSS" />
+                    <Habilidad image={"/JavaScript.png"} title="JavaScript" />
+                    <Habilidad image={"/C++.png"} title="C++" />
+                    <Habilidad image={"/PHP.png"} title="PHP" />
+                    <Habilidad image={"/Java.png"} title="Java" />
+                    <Habilidad image={"/Bootstrap.png"} title="Bootstrap" />
+                    <Habilidad image={"/Tailwind.png"} title="Tailwind" />
+                    <Habilidad image={"/Wordpress.png"} title="Wordpress" />
+                    <Habilidad image={"/mysql.png"} title="MYSQL" />
+                    <Habilidad image={"/postgresql.png"} title="PostgreSQL" />
+                    <Habilidad image={"/supabase.png"} title="Supabase" />
+                    <Habilidad image={"/React.webp"} title="React" />
+                    <Habilidad image={"/Node.png"} title="NodeJS" />
+                    <Habilidad image={"/api.png"} title="API Rest" />
                 </Slider>
             </div>
         </div>
@@ -64,7 +67,7 @@ export function Habilidades() {
     );
 }
 
-function SkillCard({ image, title }) {
+function Habilidad({ image, title }) {
   return (
     <div className="p-4 flex flex-col items-center justify-center bg-gray-900 bg-opacity-50 m-4 rounded-lg">
       <img src={image} alt={title} className="h-20 mb-4 p-4" />
