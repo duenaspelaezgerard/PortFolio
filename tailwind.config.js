@@ -10,9 +10,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        customGray: '#18181B'
-      },
     },
   },
   darkMode: "class",
