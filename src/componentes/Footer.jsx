@@ -9,17 +9,17 @@ export function Footer() {
           </li>
           <li className="flex items-center space-x-4">
             <i className="fa-solid fa-envelope text-sm text-gray-300" />
-            <a href="mailto:gerdue13@gmail.com" className="text-sm font-bold">gerdue13@gmail.com</a>
+            <a target="_blank" href="mailto:gerdue13@gmail.com" className="text-sm font-bold">gerdue13@gmail.com</a>
           </li>
         </ul>
       </div>
       <div className="flex items-center space-x-4 mb-4 sm:mb-0">
-        <a href="https://www.linkedin.com/in/gerard-duenas-pelaez/" target="_blank" rel="noopener noreferrer">
+        <a target="_blank" href="https://www.linkedin.com/in/gerard-duenas-pelaez/" rel="noopener noreferrer">
           <div className="w-8 h-8">
             <img src="/linkedin-ico.png" alt="LinkedIn" className="w-full h-full" />
           </div>
         </a>
-        <a href="https://github.com/GerardDuenasPelaez" target="_blank" rel="noopener noreferrer">
+        <a target="_blank" href="https://github.com/GerardDuenasPelaez" rel="noopener noreferrer">
           <div className="w-8 h-8">
             <img src="/github-ico.png" alt="GitHub" className="w-full h-full" />
           </div>

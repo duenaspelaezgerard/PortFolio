@@ -5,7 +5,7 @@ import Slider from "react-slick";
 export function Habilidades() {
   const settings = {
     dots: false,
-    arrows: false,
+    arrows: true,
     infinite: true,
     speed: 900,
     slidesToShow: 5,
@@ -47,6 +47,7 @@ export function Habilidades() {
                     <Habilidad image={"/HTML5.png"} title="HTML" />
                     <Habilidad image={"/CSS3.png"} title="CSS" />
                     <Habilidad image={"/JavaScript.png"} title="JavaScript" />
+                    <Habilidad image={"/visualbasic.png"} title="VisualBasic.Net" />
                     <Habilidad image={"/C++.png"} title="C++" />
                     <Habilidad image={"/PHP.png"} title="PHP" />
                     <Habilidad image={"/Java.png"} title="Java" />

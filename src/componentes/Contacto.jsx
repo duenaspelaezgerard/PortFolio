@@ -13,7 +13,7 @@
                     </div>
                 </div>
                 <div className="bg-gray-900 bg-opacity-50 m-4 rounded-lg text-white p-8 shadow-lg flex flex-col items-center">
-                    <img src="https://www.svgrepo.com/show/501544/email.svg" alt="Correo Electrónico" className="w-16 h-16 mb-4 filter invert" />
+                    <a href="mailto:gerdue13@gmail.com"><img src="https://www.svgrepo.com/show/501544/email.svg" alt="Correo Electrónico" className="w-16 h-16 mb-4 filter invert" /></a>
                     <div className="text-center">
                         <h3 className="text-2xl font-bold mb-2">Correo Electrónico</h3>
                         <p className="text-lg">gerdue13@gmail.com</p>

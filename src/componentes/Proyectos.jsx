@@ -32,7 +32,7 @@ export function Proyectos() {
 
   const settings = {
     dots: false,
-    arrows: false,
+    arrows: true,
     infinite: true,
     speed: 900,
     slidesToShow: 1,
@@ -86,7 +86,7 @@ export function Proyectos() {
             <p className="text-sm">{description}</p>
             <p className="text-sm">Tecnologías aplicadas: <strong>{tecnologias}</strong></p>
             <div className="mt-4">
-              <a href={projectLink} className="inline-block px-4 py-2 bg-gray-500 hover:bg-gray-700 text-white font-semibold rounded"> VER PROYECTO</a>
+              <a href={projectLink} target="_blank" className="inline-block px-4 py-2 bg-gray-500 hover:bg-gray-700 text-white font-semibold rounded"> VER PROYECTO</a>
             </div>
           </div>
         </div>
