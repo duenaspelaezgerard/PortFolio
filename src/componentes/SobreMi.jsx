@@ -10,7 +10,7 @@ export function SobreMi() {
         </div>
         <div className="md:h-[300px] w-[300px] hidden md:block order-2">
           <a href="https://www.linkedin.com/in/gerard-duenas-pelaez/" target="_blank">
-            <img src="/gerard dueñas.jpg" alt="Gerard Dueñas" className="rounded-lg shadow-lg mx-auto sm:h-[300px] w-[300px]" />
+            <img src="/gerardduenas.jpg" alt="Gerard Dueñas" className="rounded-lg shadow-lg mx-auto sm:h-[300px] w-[300px]" />
           </a>
         </div>
       </div> 

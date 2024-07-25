@@ -47,9 +47,11 @@ export function Habilidades() {
                     <Habilidad image={"/HTML5.png"} title="HTML" />
                     <Habilidad image={"/CSS3.png"} title="CSS" />
                     <Habilidad image={"/JavaScript.png"} title="JavaScript" />
+                    <Habilidad image={"/typescript.png"} title="TypeScript" />
                     <Habilidad image={"/visualbasic.png"} title="VisualBasic.Net" />
                     <Habilidad image={"/C++.png"} title="C++" />
                     <Habilidad image={"/PHP.png"} title="PHP" />
+                    <Habilidad image={"/RoR.png"} title="Ruby On Rails" />
                     <Habilidad image={"/Java.png"} title="Java" />
                     <Habilidad image={"/Bootstrap.png"} title="Bootstrap" />
                     <Habilidad image={"/Tailwind.png"} title="Tailwind" />
@@ -60,6 +62,7 @@ export function Habilidades() {
                     <Habilidad image={"/React.webp"} title="React" />
                     <Habilidad image={"/Node.png"} title="NodeJS" />
                     <Habilidad image={"/api.png"} title="API Rest" />
+                    <Habilidad image={"/nextjs.webp"} title="NextJS" />
                 </Slider>
             </div>
         </div>
