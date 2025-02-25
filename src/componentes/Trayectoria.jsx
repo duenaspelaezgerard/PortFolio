@@ -6,7 +6,7 @@ export function Trayectoria() {
                 <div className="grid grid-cols-1 gap-8">
                     <div className="bg-gray-800 bg-opacity-70 p-6 rounded-lg shadow-md">
                         <h3 className="text-2xl font-bold mb-4"><i class="fa-solid fa-code"></i> Programador Full-Stack en Menarini Diagnostics</h3>
-                        <h4 className="text-xl mb-2">2023 Septiembre - 2024 Junio</h4>
+                        <h4 className="text-xl mb-2">2023 Enero - 2024 Marzo</h4>
                         <br></br>
                         <p className="mb-4">En Menarini Diagnostics, he desempeñado diversas responsabilidades clave para mantener el middleware de la empresa, incluyendo el desarrollo de nuevas funcionalidades y la resolución eficiente de incidencias mediante sistemas de tickets. 
                         <br></br>
@@ -24,7 +24,7 @@ export function Trayectoria() {
                     </div>
                     <div className="bg-gray-800 bg-opacity-70 p-6 rounded-lg shadow-md">
                         <h3 className="text-2xl font-bold mb-4"><i class="fa-solid fa-code"></i> Desarrollador de Software AppDrawn</h3>
-                        <h4 className="text-xl mb-2">2024 Julio - Actualmente</h4>
+                        <h4 className="text-xl mb-2">2024 Abril - Actualmente</h4>
                         <br></br>
                         <p className="mb-4">
                             En AppDrawn, mi principal función es la gestión de proyectos de principio a fin. Esto incluye la planificación detallada del proyecto, donde defino objetivos y el alcance del mismo, además de crear un plan con cronogramas y asignación de recursos. También resuelvo conflictos y facilito la comunicación entre los miembros del equipo.
